@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_main"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/ticTac"
+        android:layout_width="365dp"
+        android:layout_height="258dp"
+        android:layout_above="@+id/inRow"
+        android:layout_marginStart="31dp"
+        android:layout_marginBottom="-570dp"
+        android:onClick="gameList"
+        android:text="TIC TAC TOE" />
+
+    <Button
+        android:id="@+id/inRow"
+        android:layout_width="350dp"
+        android:layout_height="281dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginBottom="-723dp"
+        android:onClick="gameList"
+        android:text="4 in a row" />
+</RelativeLayout>
